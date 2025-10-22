@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "id": "Weber_1978",
+      "title": "Weber (1978) - Legitimacy",
+      "group": "classic",
+      "url": "https://www.semanticscholar.org/paper/Max-Weber-on-economy-and-society-Holton-Turner/73b7c71e74e72cd364b63c191020438b88ea3ad3"
+    },
+    {
+      "id": "Arendt_1963",
+      "title": "Arendt (1963) - Founding",
+      "group": "classic",
+      "url": "https://en.wikipedia.org/wiki/Hannah_Arendt"
+    },
+    {
+      "id": "Foucault_1976",
+      "title": "Foucault (1976) - Power",
+      "group": "classic",
+      "url": "https://en.wikipedia.org/wiki/Michel_Foucault"
+    },
+    {
+      "id": "Bourdieu_1991",
+      "title": "Bourdieu (1991) - Symbolic Power",
+      "group": "classic",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Bourdieu"
+    },
+    {
+      "id": "Somers_1994",
+      "title": "Somers (1994) - Narrative Identity",
+      "group": "classic",
+      "url": "https://deepblue.lib.umich.edu/handle/2027.42/43649"
+    },
+    {
+      "id": "TillyTarrow_2015",
+      "title": "Tilly & Tarrow (2015) - Contentious Politics",
+      "group": "classic",
+      "url": "https://academic.oup.com/book/28119"
+    },
+    {
+      "id": "FinnemoreSikkink_1998",
+      "title": "Finnemore & Sikkink (1998) - Norms",
+      "group": "classic",
+      "url": "https://www.semanticscholar.org/paper/International-Norm-Dynamics-and-Political-Change-Finnemore-Sikkink/aa034afc946b4d729e3e5e00699905d7250442d0"
+    },
+    {
+      "id": "Getachew_2019",
+      "title": "Getachew (2019) - Worldmaking After Empire",
+      "group": "recent",
+      "url": "https://www.semanticscholar.org/paper/Worldmaking-after-Empire-Getachew/ca9e8b5789a3911f16ec3b1044f9a56cffd8e55c"
+    },
+    {
+      "id": "Homolar_2024",
+      "title": "Homolar (2024) - Narrative Alliances",
+      "group": "recent",
+      "url": "https://academic.oup.com/ia/article/100/1/203/7506707"
+    },
+    {
+      "id": "Talbi_2024",
+      "title": "Talbi (2024) - Epistemic Import of Narratives",
+      "group": "recent",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02691728.2024.2356518"
+    },
+    {
+      "id": "Klenk_2024",
+      "title": "Klenk & Gurol (2024) - China's Image Management",
+      "group": "recent",
+      "url": "https://link.springer.com/article/10.1007/s11366-023-09865-z"
+    },
+    {
+      "id": "Walsh_2023",
+      "title": "Walsh (2023) - Stories in Action",
+      "group": "recent",
+      "url": "https://scholar.google.com/scholar?q=stories+in+action+walsh+2023"
+    },
+    {
+      "id": "NarrativeChange_2024",
+      "title": "Narrative Change Report (2024)",
+      "group": "recent",
+      "url": "https://example.org/narrative-change-2024"
+    }
+  ],
+  "links": [
+    {
+      "source": "FinnemoreSikkink_1998",
+      "target": "Weber_1978",
+      "mechanism": "norm diffusion"
+    },
+    {
+      "source": "FinnemoreSikkink_1998",
+      "target": "Homolar_2024",
+      "mechanism": "norms -> narrative alliances"
+    },
+    {
+      "source": "Somers_1994",
+      "target": "Talbi_2024",
+      "mechanism": "narrative identity / epistemic"
+    },
+    {
+      "source": "Talbi_2024",
+      "target": "NarrativeChange_2024",
+      "mechanism": "epistemic framing"
+    },
+    {
+      "source": "Getachew_2019",
+      "target": "NarrativeChange_2024",
+      "mechanism": "worldmaking / postcolonial narratives"
+    },
+    {
+      "source": "Getachew_2019",
+      "target": "Homolar_2024",
+      "mechanism": "worldmaking -> narrative alliances"
+    },
+    {
+      "source": "TillyTarrow_2015",
+      "target": "Foucault_1976",
+      "mechanism": "contentious politics / power analysis"
+    },
+    {
+      "source": "Klenk_2024",
+      "target": "Weber_1978",
+      "mechanism": "state legitimation via narrative"
+    },
+    {
+      "source": "Klenk_2024",
+      "target": "Talbi_2024",
+      "mechanism": "image management / epistemic narratives"
+    },
+    {
+      "source": "Walsh_2023",
+      "target": "Somers_1994",
+      "mechanism": "stories-in-action / identity"
+    },
+    {
+      "source": "Homolar_2024",
+      "target": "TillyTarrow_2015",
+      "mechanism": "narrative framing of contentious politics"
+    }
+  ]
+}
